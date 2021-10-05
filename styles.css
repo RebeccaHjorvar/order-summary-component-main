@@ -1,0 +1,110 @@
+body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  h1 {
+    font-weight: 700;
+    margin-bottom: 8%;
+    padding: 0;
+  }
+
+  .container {
+      display: flex;
+      margin: 10% auto;
+      max-width: 80%;
+
+  }
+  .card {
+    max-width: 350px;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .header-div {
+    flex-basis: auto; 
+  }
+  .header-img {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 100%;
+  }
+  p {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+  }
+
+  .container-body{
+      text-align: center;
+  }
+  .text {
+    margin: 10% 8%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .annual-plan {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex-basis: auto;
+      max-width: 80%;
+      align-items: center;
+      justify-content: space-between;
+      background-color: hsl(225, 100%, 98%);
+      border-radius: 15px;
+      padding: 5%;
+      margin-bottom: 5%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .annual-plan-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .annual-plan-title {
+      font-weight: 900;
+  }
+  .buttons {
+      display: flex;
+      flex-direction: column;
+      padding: 5%;
+  }
+ 
+  button {
+      border-radius: 15px;
+      height: 3.5em;
+      border: none;
+      font-weight: bolder;
+      letter-spacing: 0.1em;
+  }
+  .button-pay {
+      background-color: hsl(245, 75%, 52%);
+      box-shadow: 0 15px 10px hsl(225, 100%, 94%);
+      color: white;
+  }
+  .button-cancel {
+    margin-top:3px;
+      background-color: transparent;
+      color: hsl(224, 23%, 55%);
+  }
+  button:hover {
+    cursor: pointer;
+  }
